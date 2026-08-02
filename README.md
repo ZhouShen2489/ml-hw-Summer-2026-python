@@ -1,2 +1,2 @@
 # ml-hw-Summer-2026-python
-The Machine Learning class in Sofia University
+The Machine Learning class at Sofia University. Put class assignments into it.
