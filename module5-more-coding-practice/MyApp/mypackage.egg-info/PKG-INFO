@@ -1,0 +1,13 @@
+Metadata-Version: 2.4
+Name: mypackage
+Version: 0.1
+Summary: Testing installation of Package
+Home-page: #
+Author: auth
+Author-email: author@email.com
+License: MIT
+Dynamic: author
+Dynamic: author-email
+Dynamic: home-page
+Dynamic: license
+Dynamic: summary
