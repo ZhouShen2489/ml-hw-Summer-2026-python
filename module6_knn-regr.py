@@ -32,7 +32,7 @@ class KNNRegression:
             neighbors_distances[i, 0] = distance
             neighbors_distances[i, 1] = self.points[i][1]
 
-        # Sort the neighbors bydistance
+        # Sort the neighbors by distance
         neighbors_distances = neighbors_distances[
             neighbors_distances[:, 0].argsort()
         ]
@@ -47,7 +47,7 @@ class KNNRegression:
 
 
 # Number of points
-N = int(input("Enter the number of points: "))
+N = int(input("Enter the number of points N: "))
 
 # Number of nearest neighbors
 k = int(input("Enter the number of nearest neighbors k: "))
@@ -69,6 +69,6 @@ else:
     )
 
     # Predict Y
-    X_y_predict = knn.predict(X)
+    Y = knn.predict(X)
 
-    print("The predicted y-coordinate of the point with x: ", X,"is: ",X_y_predict)
+    print("The predicted y-coordinate of the point with x: ", X,"is: ",Y)
